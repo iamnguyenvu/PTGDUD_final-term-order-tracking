@@ -1,0 +1,26 @@
+{
+    "orders": [{
+            "id": 1,
+            "customerName": "Nguyễn Văn A",
+            "createdAt": "2024-04-20",
+            "status": "Pending",
+            "total": 250000,
+            "note": "Giao sau 6h chiều",
+            "items": [
+                { "name": "Áo thun", "quantity": 2, "price": 100000 },
+                { "name": "Mũ", "quantity": 1, "price": 50000 }
+            ]
+        },
+        {
+            "id": 2,
+            "customerName": "Trần Thị B",
+            "createdAt": "2024-04-18",
+            "status": "Delivered",
+            "total": 180000,
+            "note": "",
+            "items": [
+                { "name": "Quần jeans", "quantity": 1, "price": 180000 }
+            ]
+        }
+    ]
+}
